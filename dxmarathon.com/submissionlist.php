@@ -44,7 +44,7 @@
 		 please contact the DX Marathon manager at k9el at dxmarathon dot com.  If you submitted your log via email, it may take up to 24 hours before your callsign appears.  </h6>
 	<!-- <h5><a href="#logsReceived">Received</a> | <a href="#logsSWL">SWL/Checklog</a> | <a href="#logsDefective">Defective</a> | <a href="#logsDQ">Disqualified</a></h5> -->
  	<h3 id="logsReceived">Received Logs</h3>
- 	<p><br />9H/TA1HZ<br />IU2NUB<br />K4NNK<br />NF7D<br />W4DTA<br />YV5AJI<br /></p>
+ 	<p><br />9H/TA1HZ<br />IU2NUB<br />K4NNK<br />K4VBM<br />NF7D<br />PY4EP<br />W4DTA<br />YV5AJI<br /></p>
  	<!-- <p>&nbsp;</p>
  	<h3 id="logsSWL">SWL, Late and Check Logs</h3>
  	<p></p>
