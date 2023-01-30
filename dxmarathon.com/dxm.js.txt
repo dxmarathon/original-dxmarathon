@@ -1,0 +1,39 @@
+// any javascript functions we may need for DXMarathon things
+
+
+// Save value for manually add call to list of received logs text file
+$(document).on("click", "#btnSaveReceivedLog", function() {
+	//check for blank field and display to user
+	var errorMessage = '';
+	if ($('#txtAddReceivedLog').val() == "") {
+        errorMessage += "Value is required.\n\n";
+    }
+
+    //display the errors and exit
+     if (errorMessage != '') {
+      alert('Please correct the following errors:\n\n' + errorMessage);
+      return;
+     }
+
+     //let's go ahead and save the value
+     var receivedLog='';
+
+     receivedLog = $('#txtAddReceivedLog').val();
+
+     $.ajax({
+    type:"post",
+    url:"addReceivedLog.php",
+    data:"receivedLog="+receivedLog,
+    success: function(){
+       $('#savedNotice').css('display', 'inline');
+
+      //clear the form fields
+      $("#txtAddReceivedLog").val('');
+ 	},
+ 	error: function() {
+ 	  alert('The call already exists, or something else went wrong.');
+ 	  $('#savedNotice').css('display', 'none');
+      return;
+ 	}
+   });
+});

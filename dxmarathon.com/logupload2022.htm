@@ -1,0 +1,125 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>DX Marathon Log Upload</title>
+<style>
+<!--
+div.Section1
+	{page:Section1;}
+-->
+h1 {
+	font: 32px ariel, sans-serif;
+	text-align: center;
+}
+h2 {
+	font: 24px ariel, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin: 6px;
+}
+h3 {
+	font: 24px ariel, sans-serif;
+	font-weight: bold;
+	color: #FF0000; /*red*/
+	margin: 8px;
+}
+p {
+	margin-top: 10;
+	margin-bottom: 10;
+	margin-left: 25;
+	font: 18px Calibri, sans-serif;
+}
+ol, ul {
+	margin-top: 10;
+	margin-bottom: 10;
+	margin-left: 25;
+	font: 18px Calibri, sans-serif;
+}
+.button-submit {
+      background-color: #4CAF50; /* green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      border-radius: 12px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 30px;
+	 }
+</style>
+</head>
+
+<body style="text-indent: 0; word-spacing: 0; line-height: 150%; text-align: left; margin: 0 5" topmargin="6" leftmargin="10" rightmargin="10" bottommargin="5">
+
+<!-- Page header and bookmark links -->
+<div align="center">
+	<img border="0" src="images/CQ%20logo.jpg" width="276" height="64">
+</div>
+<h1>2022 DX Marathon Log Upload</h1>
+<p>&nbsp;</p>
+<p><font size="5" color="#0000FF">Please use the input window below to submit 
+your log.&nbsp;&nbsp; Once your log has been accepted it will be 
+shown on the <a target="_blank" href="submissionlist.php">Received Logs</a> page.&nbsp;&nbsp; It may take up to 24 hours for your call to appear in 
+the list.&nbsp; If your call does not appear, please contact k9el at dxmarathon.com.&nbsp; If you discover you made an error 
+after you have submitted your log, simply upload the new log and it will replace your previous 
+submission.&nbsp;&nbsp; Submission deadline is 2359Z, January 5, 2023.</font></p>
+<p>&nbsp;</p>
+<p><b><i><font size="5" color="#0000FF">By submitting a DX Marathon log, an entrant 
+unconditionally and irrevocably agrees that the entrant has: 1) read and 
+understood the rules of the DX Marathon and agrees to be bound by them; 2) 
+operated according to all rules and regulations that pertain to amateur radio 
+for the station location; 3) agreed that the log entry may be made open to the 
+public; 4) accepted that the issuing of disqualifications and other decisions of 
+the DX Marathon committee are official and final.&nbsp; If an entrant is 
+unwilling or unable to agree to all of the foregoing, the entrant should not 
+submit an entry.</font></i></b></p>
+<p>&nbsp;</p>
+
+<!-- Begin page content -->
+
+
+<p><b><i><font size="4">A very special thanks to Mike, W9MR, for creating and implementing our online 
+log entry.</font></i></b></p>
+<p>&nbsp;</p>
+
+
+<h3 id="SubmitLog">UPLOAD YOUR LOG HERE</h3>
+<div id="form">
+  <!--BEGIN FORM SECTION ===== Edit with caution, DO NOT change field names, IDs, types -->
+  <form action="log_validation.php" method="post" enctype="multipart/form-data">
+    <p>Log File (.XLS): <input type="file" name="fileLog" id="fileLog"> </p>
+    <p><label><input type="checkbox" name="chkSWL" id="chkSWL"> Please check 
+	here if this is an SWL entry.</label></p>
+   <p><input type="submit" class="button-submit" value="Upload Log"></p>
+  </form>
+  <!-- END FORM SECTION -->
+</div>
+
+
+<div style="mso-element:para-border-div;border:1.0pt solid windowtext;
+mso-border-alt:solid windowtext .5pt;padding-left:4.0pt; padding-right:4.0pt; padding-top:1.0pt; padding-bottom:1.0pt; background-color:#CCCCCC">
+<p style="text-align: center">
+<b><font size="5" face="Arial">Important notes for users of AD1C's ADIF to DX 
+Marathon software:&nbsp; </font>
+</b>
+</p>
+<p style="text-align: center"><font size="4" face="Arial"><b>Always use the latest version of the 
+software - latest version is 22.1</b></font></p>
+<p style="text-align: center"><font size="4" face="Arial"><b>Always use the latest DX Marathon submission form - 
+latest is 2022.1</b></font></p>
+<p style="text-align: center"><b><font face="Arial" size="4">For detailed information on the use of the 
+software: <a href="https://ad1c.us/software/marathon">https://ad1c.us/software/marathon</a></font></b></p>
+<p style="text-align: center">&nbsp;</p>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+</body>
+
+</html>
